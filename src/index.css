@@ -1,0 +1,102 @@
+*{
+  font-family: sans-serif;
+  /* font-weight: bold; */
+  font-size: 1.1rem;
+}
+body {
+  margin: 0;
+  padding-top: 40px;
+  /* font-family: sans-serif;, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+    
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  /* background: #1B2322 !important; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+img{
+  max-width: 600px; 
+  min-width:420px;
+  height: 250px;
+  margin-top: 20px;
+  object-fit: contain;
+}
+h1{
+  align-self: flex-start;
+  color: rgb(22, 22, 22);
+  font-weight: bolder;
+  font-family: monospace;
+  margin-bottom: 20px;
+}
+.todo-container{
+  padding: 10px 12px;
+  margin-bottom: 40px;
+  background: rgb(83, 198, 255);
+  border-bottom: solid hsl(200, 100%, 26%) 8px;
+  box-shadow: 8px 8px 0px 2px rgb(0, 0, 0);
+  max-width: 600px; 
+  min-width:420px;
+  display: flex;
+  flex-direction: column;
+  font-family: monospace;
+
+}
+
+.add-input-container{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  height: 50px;
+  margin-bottom: 40px;
+}
+
+.add-input-text{
+  background: hsl(200, 100%, 76%);
+  font-weight: bolder;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  padding-left: 8px;
+  flex: 6;
+  font-family: monospace;
+  
+}
+
+.add-input-button{
+  flex: 2;
+}
+
+.task{
+  font-family: monospace;
+
+  /* border: solid red 2px; */
+  border-bottom: solid hsl(200, 79%, 50%) 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+}
+
+.task-title{
+  width: 250px;
+  margin: 0;
+  font-family: monospace;
+
+}
+
+
+.completed{
+  color: rgb(158, 158, 158);
+}
